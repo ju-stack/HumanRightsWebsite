@@ -1,10 +1,8 @@
-function SmallCase(imgLink, title, story, backgroundColor) {
-    imgLink = `./${imgLink}`
+function SmallCase(props) {
     return (
       <div>
-        <img src={imgLink}/>
-        <h2>{title}</h2>
-        <div>{story}</div>
+        <h2>{props.title}</h2>
+        <div>{props.story}</div>
       </div>
     );
   }

@@ -16,7 +16,6 @@ function App() {
           <Route path="/case" element={<Case/>}></Route>
           <Route path="/respect" element={<Respect/>}></Route>
           <Route path="/quiz" element={<Quiz/>}></Route>
-          <Route></Route>
         </Routes>
       </BrowserRouter>
     </>

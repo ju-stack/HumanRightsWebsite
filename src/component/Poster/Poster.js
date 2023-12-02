@@ -1,7 +1,7 @@
 function Poster() {
     return(
       <div style={{textAlign: "center"}}>
-        <h1 style={{textAlign:"center", margin:"20px"}}>
+        <h1 style={{margin:"20px"}}>
             교권 포스터
         </h1>
         <div style={{display : "flex", alignItems : "center", margin:"0 auto", width: "min-content"}}>

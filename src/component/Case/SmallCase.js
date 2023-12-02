@@ -19,7 +19,6 @@ function vwBigDiv(){
 }
 
 function SmallCase(props) {
-  console.log(props.alt)
     return (
       <div style={vwBigDiv()}>
         <img title={props.alt} alt={props.title} src={`img/${props.imgName}`} style={vwImg()}/>

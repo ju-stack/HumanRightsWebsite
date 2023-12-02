@@ -23,3 +23,12 @@ header {
   background-color: #ddd;
   color: rgb(71, 134, 245);
 }
+header a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+}
+header a:hover {
+  color: rgb(71, 134, 245);
+}

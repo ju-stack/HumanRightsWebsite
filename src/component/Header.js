@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header>
-        <h1>교권 존중 캠페인</h1>
+        <Link to="/"><h1>교권 존중 캠페인</h1></Link>
 
         <div className='navbar'>
           <Link to="/case">교권 침해 사례</Link>
